@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Create Account — Netflix Clone</title><link rel="stylesheet" href="style.css"></head>
+<body class="auth-page">
+<header class="auth-header"><a class="logo" href="index.html">NETFLIX</a></header>
+<main class="auth-main">
+<form class="auth-card" id="signupForm" novalidate>
+<h1>Create your account</h1><p class="muted">Enter your details to get started.</p>
+<label for="signupEmail">Email</label><input id="signupEmail" type="email" autocomplete="email"><small class="error" id="signupEmailError"></small>
+<label for="signupPassword">Password</label>
+<div class="password-wrap"><input id="signupPassword" type="password" autocomplete="new-password"><button type="button" class="password-toggle" data-target="signupPassword">Show</button></div>
+<div class="strength"><span id="strengthBar"></span></div><small class="strength-text" id="strengthText"></small><small class="error" id="signupPasswordError"></small>
+<label for="confirmPassword">Confirm password</label><input id="confirmPassword" type="password" autocomplete="new-password"><small class="error" id="confirmPasswordError"></small>
+<label class="remember"><input id="terms" type="checkbox"> I agree to the Terms of Use.</label><small class="error" id="termsError"></small>
+<button class="btn auth-submit" type="submit">Create Account</button>
+<p class="auth-bottom">Already have an account? <a href="login.html">Sign in.</a></p>
+</form>
+</main>
+<footer class="auth-footer">This is a frontend recreation for educational purposes.</footer>
+<script src="script.js"></script>
+</body>
+</html>

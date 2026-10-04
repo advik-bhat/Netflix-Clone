@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Responsive Netflix-inspired frontend recreation.">
+<title>Netflix India — Watch Shows Online</title>
+<link rel="icon" type="image/jpeg" href="netflixfavicon.jpg">
+<link rel="shortcut icon" type="image/jpeg" href="netflixfavicon.jpg">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar" id="navbar">
+  
+  <a class="logo" href="index.html" aria-label="Netflix home">NETFLIX</a>
+  <nav class="desktop-nav" aria-label="Main navigation">
+    <a href="#trending">Trending</a><a href="#reasons">Why Netflix</a><a href="#faq">FAQ</a>
+  </nav>
+  <div class="nav-actions">
+    <select aria-label="Language"><option>English</option><option>हिन्दी</option></select>
+    <a class="btn btn-small" href="login.html">Sign In</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#trending">Trending</a><a href="#reasons">Why Netflix</a><a href="#faq">FAQ</a><a href="login.html">Sign In</a>
+</div>
+
+<main>
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="eyebrow">STREAMING, YOUR WAY</p>
+    <h1>Unlimited movies, shows, and more.</h1>
+    <p class="hero-subtitle">Starts at ₹149. Cancel at any time.</p>
+    <p class="hero-note">Ready to watch? Enter your email to create or restart your membership.</p>
+    <form class="email-form" data-redirect="signup.html">
+      <input type="email" placeholder="Email address" aria-label="Email address" required>
+      <button class="btn btn-cta" type="submit">Get Started <span>›</span></button>
+    </form>
+  </div>
+</section>
+
+<section class="section" id="trending">
+  <div class="section-heading"><div><p class="section-kicker">WHAT'S HOT</p><h2>Trending Now</h2></div><p class="section-caption">Popular on Netflix</p></div>
+  <div class="movie-row" id="movieRow"></div>
+</section>
+
+<section class="section" id="reasons">
+  <div class="section-heading"><div><p class="section-kicker">MADE FOR YOU</p><h2>More reasons to join</h2></div></div>
+  <div class="reason-grid">
+    <article class="reason-card"><div class="reason-icon">▣</div><h3>Enjoy on your TV</h3><p>Watch on Smart TVs, PlayStation, Xbox, Chromecast and more.</p></article>
+    <article class="reason-card"><div class="reason-icon">↓</div><h3>Download your shows</h3><p>Save your favourites easily and always have something to watch offline.</p></article>
+    <article class="reason-card"><div class="reason-icon">⌁</div><h3>Watch everywhere</h3><p>Stream unlimited movies and TV shows on your phone, tablet and laptop.</p></article>
+    <article class="reason-card"><div class="reason-icon">♡</div><h3>Create profiles for kids</h3><p>Send kids on adventures with their favourite characters in a space made for them.</p></article>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="section-heading"><div><p class="section-kicker">NEED TO KNOW</p><h2>Frequently Asked Questions</h2></div></div>
+  <div class="faq-list" id="faqList"></div>
+</section>
+
+<section class="cta-section">
+  <h2>Ready to watch?</h2><p>Enter your email to create or restart your membership.</p>
+  <form class="email-form" data-redirect="signup.html">
+    <input type="email" placeholder="Email address" aria-label="Email address" required>
+    <button class="btn btn-cta" type="submit">Get Started <span>›</span></button>
+  </form>
+</section>
+</main>
+
+<footer class="footer">
+  <p>Questions? Call 000-800-919-1743</p>
+  <div class="footer-links"><a href="#faq">FAQ</a><a href="#">Help Centre</a><a href="#">Terms of Use</a><a href="#">Privacy</a></div>
+  <p class="disclaimer">Educational recreation project — not affiliated with Netflix.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
