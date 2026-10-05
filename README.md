@@ -1,39 +1,61 @@
-# Netflix India — Frontend Recreation
+# 🎬 Netflix UI Recreation
 
-A responsive recreation of the Netflix India experience built with **HTML, CSS and vanilla JavaScript** 
+A responsive frontend recreation of the Netflix streaming experience, built as part of the **HackTheBox Development Domain selection task**.
 
-## Pages
-- `index.html` — landing/home page
-- `login.html` — sign-in page
-- `signup.html` — sign-up page
+The project recreates the core Netflix experience using **HTML, CSS and vanilla JavaScript**, with a focus on responsive design, clean UI, and small interactive details.
 
+## 🌐 Live Demo
 
-## Features
-- Responsive desktop, tablet and mobile layouts
-- Mobile navigation menu
-- Sticky navbar after scrolling
-- Trending section generated from JavaScript data
-- Interactive FAQ accordion
-- Client-side form validation
-- Password show/hide controls
-- Password strength indicator
-- Toast feedback for demo-only actions
-- Keyboard/focus states
-- Smooth scrolling
-- No backend or real authentication
+🔗 **[View the live website](https://streaming-platform-recreation.netlify.app)**
 
-## Tech
-- HTML5
-- CSS3
-- Vanilla JavaScript
+> Educational frontend recreation — not affiliated with or endorsed by Netflix.
 
-No framework or build step is required.
+---
 
-## Run locally
-Open `index.html` directly in a browser, or use VS Code + Live Server.
+## 📸 Preview
 
-## GitHub Pages
-This is a static site and can be deployed directly with GitHub Pages.
+<!-- Add screenshots here after deployment -->
 
-## Disclaimer
-This is an educational recreation. It is not affiliated with or endorsed by Netflix, and it does not collect or process real user credentials.
+| Desktop | Mobile |
+|---|---|
+| Add desktop screenshot here | Add mobile screenshot here |
+
+---
+
+## ✨ Features
+
+- 🎬 Netflix-inspired landing page
+- 🔐 Sign In page
+- 📝 Create Account / Sign Up page
+- 📱 Responsive design for desktop, tablet and mobile
+- 🍔 Responsive mobile navigation
+- 🔥 Trending Now section
+- ❓ Interactive FAQ accordion
+- ✉️ Email input validation
+- 🔑 Password visibility toggle
+- 💪 Password strength indicator
+- 🔔 Interactive feedback/toast messages
+- 🎞️ Hover effects and UI transitions
+- ⏳ Loading animation
+- ♿ Keyboard focus states for interactive elements
+- 🔗 Navigation between pages
+
+## 🛠️ Built With
+
+- **HTML5** — page structure and semantic markup
+- **CSS3** — responsive layouts, styling, animations and media queries
+- **JavaScript** — interactions, validation and dynamic UI elements
+
+No frameworks or external libraries are required.
+
+---
+
+## 📂 Project Structure
+
+```text
+├── index.html        # Landing / Home page
+├── login.html        # Sign In page
+├── signup.html       # Create Account page
+├── style.css         # Main stylesheet
+├── script.js         # Interactive functionality
+└── README.md
