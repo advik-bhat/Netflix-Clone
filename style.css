@@ -34,12 +34,12 @@ button,a{transition:background .2s,color .2s,transform .2s}
 .movie-row{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .movie-card{
   position: relative;
-  height: 400px;
+  height: 340px;
   border-radius: 8px;
   overflow: hidden;
   background-color: #111;
-  background-size: cover;
-  background-position: center; /* Back to normal center so it doesn't distort */
+  background-size: contain; 
+  background-position: center;
   background-repeat: no-repeat;
   transition: transform .2s, box-shadow .2s;
   cursor: pointer;
