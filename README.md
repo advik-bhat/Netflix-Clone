@@ -6,7 +6,7 @@ The project recreates the core Netflix experience using **HTML, CSS and vanilla 
 
 ## 🌐 Live Demo
 
-🔗 **[View the live website](https://streaming-platform-recreation.netlify.app)**
+🔗 **[View the live website]((https://advik-bhat.github.io/Netflix-Clone/))**
 
 > Educational frontend recreation — not affiliated with or endorsed by Netflix.
 
