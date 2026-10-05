@@ -12,14 +12,6 @@ The project recreates the core Netflix experience using **HTML, CSS and vanilla 
 
 ---
 
-## 📸 Preview
-
-<!-- Add screenshots here after deployment -->
-
-| Desktop | Mobile |
-|---|---|
-| Add desktop screenshot here | Add mobile screenshot here |
-
 ---
 
 ## ✨ Features
