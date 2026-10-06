@@ -1,6 +1,6 @@
 # 🎬 Netflix UI Recreation
 
-A responsive frontend recreation of the Netflix streaming experience
+A responsive frontend recreation of the Netflix streaming experience.
 
 The project recreates the core Netflix experience using **HTML, CSS and vanilla JavaScript**, with a focus on responsive design, clean UI, and small interactive details.
 
